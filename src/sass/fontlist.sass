@@ -3,6 +3,33 @@
 @use "./settings/variables"
 @use "./theme/light"
 @use "./theme/dark"
+@use "./base/basic"
+@use "./extra/aos"
+@use "./elements/typography"
+@use "./elements/form"
+@use "./layout/navbar"
+@use "./layout/header"
+@use "./layout/container"
+@use "./layout/grid"
+@use "./layout/footer"
+@use "./elements/code"
+@use "./elements/button"
+@use "./components/card"
+@use "./components/modal"
+@use "./components/snackbar"
+@use "./components/gotop_link"
+@use "./extra/tooltip"
+@use "./extra/alert"
+@use "./utilities/alignment"
+@use "./utilities/position"
+@use "./utilities/background"
+@use "./utilities/border"
+@use "./utilities/display"
+@use "./utilities/margin"
+@use "./utilities/general"
+@use "./utilities/padding"
+@use "./utilities/spacer"
+@use "./utilities/text"
 html
 	--primary: var(--orange) !important
 	--primary-h: var(--orange-h)!important
@@ -20,36 +47,6 @@ body
 	display: grid
 	grid-gap: .5rem
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
-
-@use "./base/basic"
-@use "./extra/aos"
-@use "./elements/typography"
-@use "./elements/form"
-
-@use "./layout/navbar"
-@use "./layout/header"
-@use "./layout/container"
-@use "./layout/grid"
-@use "./layout/footer"
-@use "./elements/code"
-@use "./elements/button"
-@use "./components/card"
-@use "./components/modal"
-@use "./components/snackbar"
-@use "./components/gotop_link"
-@use "./extra/tooltip"
-@use "./extra/alert"
-
-@use "./utilities/alignment"
-@use "./utilities/position"
-@use "./utilities/background"
-@use "./utilities/border"
-@use "./utilities/display"
-@use "./utilities/margin"
-@use "./utilities/general"
-@use "./utilities/padding"
-@use "./utilities/spacer"
-@use "./utilities/text"
 
 #results>span
 	display: flex
