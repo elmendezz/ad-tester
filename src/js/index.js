@@ -297,7 +297,7 @@ function cosmetic_test_dynamic() {
 	let ad = document.createElement('div')
 	ad.id = 'ad_ctd'
 	ad.className =
-		'textads banner-ads banner_ads ad-unit afs_ads ad-zone ad-space adsbox'
+		'textads banner-ads banner_ads ad-unit afs_ads ad-zone ad-space adsbox ad-placement ads-box ad-wrapper'
 	ad.innerHTML = '&nbsp;'
 	ctd.appendChild(ad)
 	setTimeout(function () {
